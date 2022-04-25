@@ -1,0 +1,37 @@
+@media screen and (max-width: 1033px){
+
+    #user{    
+        .skills{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .education-work{
+        grid-template-columns: 1fr;
+    }    
+
+    .ft{
+        display: grid;
+        grid-row: 1fr;
+        a{    
+            img{
+                max-width: 900px;
+                max-height: 150px;
+            }
+        }    
+    }
+
+    .d-contact{
+        display: grid;
+        grid-gap: 2rem;
+        justify-content: left;
+    }
+
+    .left-contact{
+
+        font-size: 1.5rem;
+     }
+
+
+
+}
